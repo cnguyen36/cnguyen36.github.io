@@ -1,0 +1,53 @@
+
+header{
+    background-color: #1F3E74;
+    color: #FFF;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header > nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.user-profile {
+    background-image: url("./images/user.svg");
+    background-size: 24px 24px;
+    height: 24px;
+    width: 24px;
+    background-position: 50% center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    border-width: 0px;
+    display: inline-block;
+    padding: 0 !important;
+    margin-right: 10px;
+
+}
+
+.nav-item{
+    padding: 16px;
+    cursor: pointer;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo-image > img{
+    height: 80px;
+    width: 57px;
+    padding:0 10px;
+}
+.logo > svg{
+    width: 172px;
+    height: 36px;
+}
+
+.user-profile{
+
+}
