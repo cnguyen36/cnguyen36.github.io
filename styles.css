@@ -35,11 +35,11 @@ header>nav {
   cursor: pointer;
   position: relative;
 }
-
-.logo {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
 }
 
 .logo-image>img {
@@ -151,30 +151,31 @@ header>nav {
   justify-content: space-between;
 }
 
-.left-banner-price,
-.left-banner-value {
-  margin: 10px 0;
-  text-align: center;
-  background-color: #f3bc2a;
-  padding: 10px;
-  font-size: 18px;
-  line-height: 24px;
-  font-weight: 800;
-  border-radius: 4px;
-  width: 45%;
+  .left-banner-price, .left-banner-value{
+    margin: 10px 0;
+    text-align: center;
+    background-color: #f3bc2a;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 800;
+    border-radius: 4px;
+    width: 45%;
+    cursor: pointer;
 
 }
 
-.left-banner-recalls {
-  background-color: #006BC2;
-  padding: 10px;
-  font-size: 18px;
-  line-height: 24px;
-  font-weight: 800;
-  border-radius: 4px;
-  text-align: center;
-  color: #FFF;
-}
+  .left-banner-recalls{
+    background-color: #006BC2;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 800;
+    border-radius: 4px;
+    text-align: center;
+    color: #FFF;
+    cursor: pointer;
+  }
 
 .right-banner {
   padding: 40px 32px 10px;
@@ -196,28 +197,29 @@ header>nav {
   margin: 0;
 }
 
-.right-banner-down>.sponsor {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2px;
-  align-items: end;
-}
+  .right-banner-down > .sponsor{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    align-items: end;
+    cursor: pointer;
+  }
+  .right-banner-down > .shop-now{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
 
-.right-banner-down>.shop-now {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.right-banner-down>.shop-now button {
-  background-color: #CC0202;
-  border: none;
-  border-radius: 4px;
-  padding: 10px;
-  color: #FFF;
-  font-weight: 700;
-  font-size: 16px;
-}
+  .right-banner-down > .shop-now button{
+    background-color: #CC0202;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+  }
 
 /* shopSmart */
 #shopSmart {
