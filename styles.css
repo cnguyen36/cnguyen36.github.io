@@ -1,4 +1,4 @@
-
+/* Header*/
 header{
     background-color: #1F3E74;
     color: #FFF;
@@ -99,5 +99,110 @@ header > nav{
   }
 
   .tools{
-    border-right: 5px solid #FFF;
+    border-right: 3px solid #FFF;
+  }
+
+  /*banner*/
+  .banner-section{
+    background-image: url("./images/banner.avif");
+    background-size: 100% 100%;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+  .left-banner{
+    background-color: #1f3e74;
+    border-radius: 5px;
+    padding: 20px;
+    min-width: 500px;
+    margin: 30px 20px;
+  }
+
+  .left-banner > h1{
+    margin: 0;
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 800;
+  }
+
+  .left-banner > h2{
+    color: #FFF;
+    font-size: 1rem;
+  }
+  .left-banner-actions{
+    display: flex;
+    flex-direction: column;
+  }
+  .left-banner-actions-price-value{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .left-banner-price, .left-banner-value{
+    margin: 10px 0;
+    text-align: center;
+    background-color: #f3bc2a;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 800;
+    border-radius: 4px;
+    width: 45%;
+
+  }
+
+  .left-banner-recalls{
+    background-color: #006BC2;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 800;
+    border-radius: 4px;
+    text-align: center;
+    color: #FFF;
+  }
+
+  .right-banner{
+    padding: 40px 32px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #FFF;
+    min-width: 500px;
+  }
+
+  .right-banner-down{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .right-banner-up > h2{
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  .right-banner-down > .sponsor{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    align-items: end;
+  }
+  .right-banner-down > .shop-now{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .right-banner-down > .shop-now button{
+    background-color: #CC0202;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 16px;
   }
