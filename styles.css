@@ -206,3 +206,79 @@ header > nav{
     font-weight: 700;
     font-size: 16px;
   }
+
+  /* shopSmart */
+  #shopSmart{
+    margin: 10px;
+  }
+  .shopSmart-head{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .shopSmart-head > h1{
+    font-weight: 800;
+    font-size: 2rem;
+  }
+
+  .shopSmart-content{
+    display: flex;
+    flex: 1 1;
+    justify-content: space-between;
+    margin: 0 30px;
+  }
+  .shopSmart-content > h2{
+    font-weight: 500;
+  }
+
+  .shopSmart-content-item{
+    cursor: pointer;
+    max-width: 250px;
+    padding: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    background-color: #ffffff;
+  }
+
+  .shopSmart-content-item > h2, .shopSmart-content-item > p{
+    margin: 3px;
+  }
+
+  .shopSmart-content-item > .shopSmart-content-item-image{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+  }
+
+  .shopSmart-content-item > .shopSmart-content-item-image > img{
+    width: 120px;
+  }
+
+  .shopSmart-content-item-action{
+    border: 2px solid #006BC2;
+    border-radius: 4px;
+    text-align: center;
+    padding: 10px;
+    color: #006BC2;
+  }
+
+  .shopSmart-content-item:hover .shopSmart-content-item-action{
+    background-color: #006BC2;
+    color: #FFF;
+  }
+
+  .shopSmart-content-item{
+    display:  flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #startingPrice{
+    font-size: 0.8rem;
+  }
+
+  #price{
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
