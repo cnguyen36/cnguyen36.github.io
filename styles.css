@@ -39,6 +39,7 @@ header > nav{
     display: flex;
     flex-direction: row;
     align-items: center;
+    cursor: pointer;
 }
 .logo-image > img{
     height: 80px;
@@ -151,6 +152,7 @@ header > nav{
     font-weight: 800;
     border-radius: 4px;
     width: 45%;
+    cursor: pointer;
 
   }
 
@@ -163,6 +165,7 @@ header > nav{
     border-radius: 4px;
     text-align: center;
     color: #FFF;
+    cursor: pointer;
   }
 
   .right-banner{
@@ -190,6 +193,7 @@ header > nav{
     flex-wrap: wrap;
     gap: 2px;
     align-items: end;
+    cursor: pointer;
   }
   .right-banner-down > .shop-now{
     display: flex;
@@ -205,6 +209,7 @@ header > nav{
     color: #FFF;
     font-weight: 700;
     font-size: 16px;
+    cursor: pointer;
   }
 
   /* shopSmart */
