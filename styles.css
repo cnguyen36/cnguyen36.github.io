@@ -230,8 +230,9 @@ header > nav{
   .shopSmart-content{
     display: flex;
     flex: 1 1;
-    justify-content: space-between;
-    margin: 0 30px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
   }
   .shopSmart-content > h2{
     font-weight: 500;
@@ -296,6 +297,8 @@ header > nav{
 .shopBestCars-container{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .shopBestCars-container-item{
