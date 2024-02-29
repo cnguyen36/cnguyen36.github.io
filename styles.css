@@ -298,6 +298,29 @@ header>nav {
 }
 
 
+/* Shop Best Cars section */
+#shopBestCars{
+    margin: 10px;
+}
+
+.shopBestCars-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.shopBestCars-container-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.shopBestCars-container-item:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
 /* Sean start from here */
 body {
   font-family: "Open Sans", sans-serif, Tahoma, Arial;
